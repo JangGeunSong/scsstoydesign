@@ -1,0 +1,164 @@
+@import 'custom-variables';
+@import 'custom-styles';
+
+// Body tag default setting
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background: #122031
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+h5 {
+    margin: 0;
+    padding: 0;
+}
+
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+// Navbar default setting
+.navbar {
+    color: white;
+    background-color: #042652;
+    font-weight: bold;
+}
+
+.navbar-lg {
+    height: 4rem;
+}
+
+// Card layout & styles
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+ }
+
+.card {
+    display: block;
+    margin: 0.1rem;
+    padding: 0;
+    border: solid 1px;
+    border-radius: $border-radius;
+    height: 200px;
+    width: 320px;
+    .card-header {
+        width: 100%;
+        height: 15%;
+        border-radius: $border-radius;
+        border-bottom: solid 1px;
+    }
+    
+    .card-body {
+        width: 100%;
+        height: 85%;
+        border-radius: $border-radius;
+        align-items: center;
+        .card-title {
+            text-align: left;
+        }
+        .card-text {
+            text-align: center;
+        }    
+    }
+}
+
+.card-primary {
+    background: $primary;
+}
+
+.card-secondary {
+    background: $secondary;
+}
+
+.card-success {
+    background: $success;
+}
+
+.card-info {
+    background: $info;
+}
+
+.card-warning {
+    background: $warning;
+}
+
+.card-danger {
+    background: $danger;
+}
+
+.card-light {
+    background: $light;
+    color: black;
+}
+
+.card-dark {
+    background: $dark;
+}
+
+// Button styles
+.btn {
+    width: 5rem;
+    height: 3rem;
+    border: none;
+    border-radius: $border-radius;
+    color: white;
+}
+
+.btn-primary {
+    background: $primary;
+}
+
+.btn-secondary {
+    background: $secondary;
+}
+
+.btn-success {
+    background: $success;
+}
+
+.btn-info {
+    background: $info;
+}
+
+.btn-warning {
+    background: $warning;
+}
+
+.btn-danger {
+    background: $danger;
+}
+
+.btn-light {
+    background: $light;
+    color: black;
+}
+
+.btn-dark {
+    background: $dark;
+}
+
