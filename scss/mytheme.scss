@@ -85,40 +85,40 @@ h6 {
             text-align: center;
         }    
     }
+
+    &.card-primary {
+        @include set-background($primary);
+    }
+    
+    &.card-secondary {
+        @include set-background($secondary);
+    }
+    
+    &.card-success {
+        @include set-background($success);
+    }
+    
+    &.card-info {
+        @include set-background($info);
+    }
+    
+    &.card-warning {
+        @include set-background($warning);
+    }
+    
+    &.card-danger {
+        @include set-background($danger);
+    }
+    
+    &.card-light {
+        @include set-background($light);
+    }
+    
+    &.card-dark {
+        @include set-background($dark);
+    }
 }
 
-.card-primary {
-    background: $primary;
-}
-
-.card-secondary {
-    background: $secondary;
-}
-
-.card-success {
-    background: $success;
-}
-
-.card-info {
-    background: $info;
-}
-
-.card-warning {
-    background: $warning;
-}
-
-.card-danger {
-    background: $danger;
-}
-
-.card-light {
-    background: $light;
-    color: black;
-}
-
-.card-dark {
-    background: $dark;
-}
 
 // Button styles
 .btn {
@@ -127,38 +127,63 @@ h6 {
     border: none;
     border-radius: $border-radius;
     color: white;
+    cursor: pointer;
+
+    &.btn-primary {
+        @include set-background($primary);
+        &:hover {
+            background: lighten($primary, 15%);
+        }
+    }
+    
+    &.btn-secondary {
+        @include set-background($secondary);
+        &:hover {
+            background: lighten($secondary, 15%);
+        }
+    }
+    
+    &.btn-success {
+        @include set-background($success);
+        &:hover {
+            background: lighten($success, 15%);
+        }
+    }
+    
+    &.btn-info {
+        @include set-background($info);
+        &:hover {
+            background: lighten($info, 15%);
+        }
+    }
+    
+    &.btn-warning {
+        @include set-background($warning);
+        &:hover {
+            background: lighten($warning, 15%);
+        }
+    }
+    
+    &.btn-danger {
+        @include set-background($danger);
+        &:hover {
+            background: lighten($danger, 15%);
+        }
+    }
+    
+    &.btn-light {
+        @include set-background($light);
+        &:hover {
+            background: lighten($light, 15%);
+        }
+    }
+    
+    &.btn-dark {
+        @include set-background($dark);
+        &:hover {
+            background: lighten($dark, 15%);
+        }
+    }
 }
 
-.btn-primary {
-    background: $primary;
-}
-
-.btn-secondary {
-    background: $secondary;
-}
-
-.btn-success {
-    background: $success;
-}
-
-.btn-info {
-    background: $info;
-}
-
-.btn-warning {
-    background: $warning;
-}
-
-.btn-danger {
-    background: $danger;
-}
-
-.btn-light {
-    background: $light;
-    color: black;
-}
-
-.btn-dark {
-    background: $dark;
-}
 
